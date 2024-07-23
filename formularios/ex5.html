@@ -1,0 +1,47 @@
+<html>
+
+    <head>
+        <title>Exercício 5 sobre formulários no HTML</title>
+    </head>
+
+    <body>
+        <h1>Formulários de Inscrição</h1>
+        
+        <form>
+            <label for="nome">Nome:</label> <br>
+            <input type="text" name="nome" id="nome" placeholder="Raul" required>
+            <br><br>
+
+            <label for="email">Email:</label> <br>
+            <input type="email" name="email" id="email" placeholder="raulmigliari@email.com" required>
+            <br><br>
+
+            <label for="tel">WhatsApp:</label> <br>
+            <input type="tel" name="tel" id="tel" placeholder="(XX)XXXXX-XXXX" required>
+            <br><br>
+
+            <label>Área de Atuação:</label> <br>
+            <input type="radio" name="area" id="desenvolvimento" value="desenvolvimento">
+            <label for="desenvolvimento">Desenvolvimento</label>
+            <input type="radio" name="area" id="quality_assurance" value="quality_assurance">
+            <label for="quality_assurance">Quality Assurance (QA)</label>
+            <input type="radio" name="area" id="analise_dados" value="analise_dados">
+            <label for="analise_dados">Análise de Dados</label>
+            <input type="radio" name="area" id="infraestrutura" value="infraestrutura">
+            <label for="infraestrutura">Infraestrutura</label>
+            <br><br>
+
+            <label for="obs">Observações:</label> <br>
+            <textarea name="obs" id="obs" placeholder="Faça alguma observação..."></textarea>
+            <br><br>
+
+            <input type="checkbox" name="news" id="news">
+            <label for="news">Deseja receber novidades e ofertas por email.</label>
+            <br><br>
+
+            <button type="submit">Enviar</button>
+
+
+        </form>
+    </body>
+</html>
